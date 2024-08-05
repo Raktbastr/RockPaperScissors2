@@ -15,7 +15,7 @@ public class Main {
             var Rand_item = randmove.nextInt(intmovearray.length);
             var opponentmove = intmovearray[Rand_item];
             Scanner input = new Scanner(System.in);
-            System.out.print("Your-Move: ");
+            System.out.print("Your Move: ");
             String inputint = input.nextLine();
             int play = 10;
             if (inputint.equalsIgnoreCase("rock")) {
